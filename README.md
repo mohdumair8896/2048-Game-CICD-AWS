@@ -4,35 +4,35 @@
 By doing this project, I have gained hands-on experience with deploying containerized applications on Kubernetes, automating deployments with Jenkins, and enhancing security and code quality with Trivy and SonarQube.
 ## Objectives
 
--  Containerize the 2048 Game: Create a Docker image for the 2048 game.
-- Deploy on Kubernetes: Deploy the Dockerized application to a Kubernetes      cluster running on AWS EC2 instances.
-- Automate with Jenkins: Set up a Jenkins pipeline for continuous integration and deployment.
-- Enhance Security and Code Quality: Integrate Trivy for security scanning of Docker images and SonarQube for code quality analysis.
+- **Containerize the 2048 Game:** Create a Docker image for the 2048 game.
+- **Deploy on Kubernetes:** Deploy the Dockerized application to a Kubernetes      cluster running on AWS EC2 instances.
+- **Automate with Jenkins:** Set up a Jenkins pipeline for continuous integration and deployment.
+- **Enhance Security and Code Quality:** Integrate Trivy for security scanning of Docker images and SonarQube for code quality analysis.
 ## Features
 
-- Docker: Containerizes the 2048 game application to ensure consistency across different environments.
-- Kubernetes: Manages the deployment, scaling, and operation of the containerized application.
-- AWS EC2: Provides the infrastructure for running the Kubernetes cluster.
-- Jenkins CI/CD: Automates the build, test, and deployment processes.
-- Trivy: Scans Docker images for vulnerabilities before deployment.
-- SonarQube: Analyzes the codebase for bugs, vulnerabilities, and code smells to ensure high code quality.
+- **Docker:** Containerizes the 2048 game application to ensure consistency across different environments.
+- **Kubernetes:** Manages the deployment, scaling, and operation of the containerized application.
+- **AWS EC2:** Provides the infrastructure for running the Kubernetes cluster.
+- **Jenkins CI/CD:** Automates the build, test, and deployment processes.
+- **Trivy:** Scans Docker images for vulnerabilities before deployment.
+- **SonarQube:** Analyzes the codebase for bugs, vulnerabilities, and code smells to ensure high code quality.
 
 ## Workflow
 
-- Dockerization: Create a Dockerfile to build a Docker image for the 2048 game.
-- Kubernetes Deployment: Define Kubernetes deployment and service YAML files to manage the application.
-- Jenkins Pipeline: Configure a Jenkins pipeline to automate the CI/CD process, including building the Docker image, scanning with Trivy, analyzing with SonarQube, and deploying to Kubernetes.
-- Security and Quality Checks: Use Trivy for security scans and SonarQube for code quality analysis during the CI/CD pipeline.
-- Deployment: Deploy the 2048 game to the Kubernetes cluster on AWS EC2 and access it via a LoadBalancer service.
+- **Dockerization:** Create a Dockerfile to build a Docker image for the 2048 game.
+- **Kubernetes Deployment:** Define Kubernetes deployment and service YAML files to manage the application.
+- **Jenkins Pipeline:** Configure a Jenkins pipeline to automate the CI/CD process, including building the Docker image, scanning with Trivy, analyzing with SonarQube, and deploying to Kubernetes.
+- **Security and Quality Checks:** Use Trivy for security scans and SonarQube for code quality analysis during the CI/CD pipeline.
+- **Deployment:** Deploy the 2048 game to the Kubernetes cluster on AWS EC2 and access it via a LoadBalancer service.
 
 ## Technologies Used
 
-- Docker
-- Kubernetes
-- AWS EC2
-- Jenkins
-- Trivy
-- SonarQube
+- **Docker**
+- **Kubernetes**
+- **AWS EC2**
+- **Jenkins**
+- **Trivy**
+- **SonarQube**
 
 ## Jenkins Pipeline
 
